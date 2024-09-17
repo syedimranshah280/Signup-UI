@@ -39,17 +39,17 @@ class _SignUpPageState extends State<SignUpPage> {
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Container(
-                          height: SizeConfig.heightmultiplier * 100 / 2,
-                          width: SizeConfig.heightmultiplier * 100 / 2,
+                          height: SizeConfig.heightMultiplier * 100 / 2,
+                          width: SizeConfig.heightMultiplier * 100 / 2,
                           margin: EdgeInsets.all(
-                            SizeConfig.heightmultiplier * 3 / 2,
+                            SizeConfig.heightMultiplier * 3 / 2,
                           ),
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.only(
                                   bottomLeft: Radius.circular(
-                                      SizeConfig.heightmultiplier * 30 / 2),
+                                      SizeConfig.heightMultiplier * 30 / 2),
                                   topRight: Radius.circular(
-                                      SizeConfig.heightmultiplier * 30 / 2)),
+                                      SizeConfig.heightMultiplier * 30 / 2)),
                               boxShadow: [
                                 BoxShadow(
                                     blurRadius: 28,
@@ -67,16 +67,16 @@ class _SignUpPageState extends State<SignUpPage> {
                             filter: ImageFilter.blur(sigmaX: 1.0, sigmaY: 1.0),
                             child: Container(
                               margin: EdgeInsets.all(
-                                SizeConfig.heightmultiplier * 7 / 2,
+                                SizeConfig.heightMultiplier * 7 / 2,
                               ),
-                              height: SizeConfig.heightmultiplier * 90 / 2,
-                              width: SizeConfig.heightmultiplier * 90 / 2,
+                              height: SizeConfig.heightMultiplier * 90 / 2,
+                              width: SizeConfig.heightMultiplier * 90 / 2,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.only(
                                       bottomLeft: Radius.circular(
-                                          SizeConfig.heightmultiplier * 28 / 2),
+                                          SizeConfig.heightMultiplier * 28 / 2),
                                       topRight: Radius.circular(
-                                          SizeConfig.heightmultiplier *
+                                          SizeConfig.heightMultiplier *
                                               28 /
                                               2)),
                                   boxShadow: [
@@ -98,20 +98,20 @@ class _SignUpPageState extends State<SignUpPage> {
                                 child: Center(
                                     child: Container(
                                       margin: EdgeInsets.all(
-                                        SizeConfig.heightmultiplier * 7 / 2,
+                                        SizeConfig.heightMultiplier * 7 / 2,
                                       ),
-                                      height: SizeConfig.heightmultiplier * 73 / 2,
-                                      width: SizeConfig.heightmultiplier * 73 / 2,
+                                      height: SizeConfig.heightMultiplier * 73 / 2,
+                                      width: SizeConfig.heightMultiplier * 73 / 2,
                                       padding: EdgeInsets.all(
-                                          SizeConfig.heightmultiplier * 4 / 2),
+                                          SizeConfig.heightMultiplier * 4 / 2),
                                       decoration: BoxDecoration(
                                           borderRadius: BorderRadius.only(
                                               bottomLeft: Radius.circular(
-                                                  SizeConfig.heightmultiplier *
+                                                  SizeConfig.heightMultiplier *
                                                       25 /
                                                       2),
                                               topRight: Radius.circular(
-                                                  SizeConfig.heightmultiplier *
+                                                  SizeConfig.heightMultiplier *
                                                       25 /
                                                       2)),
                                           boxShadow: [
@@ -140,14 +140,14 @@ class _SignUpPageState extends State<SignUpPage> {
                                             SignUpEnterPasswordWidget(), //enter password field
                                             SignUpConfirmPasswordWidget(), //enter password field
                                             SizedBox(
-                                              height: SizeConfig.heightmultiplier *
+                                              height: SizeConfig.heightMultiplier *
                                                   2 /
                                                   2,
                                             ),
 
                                             SignupButton(), //signup button
                                             SizedBox(
-                                              height: SizeConfig.heightmultiplier *
+                                              height: SizeConfig.heightMultiplier *
                                                   4 /
                                                   2,
                                             ),
@@ -159,18 +159,18 @@ class _SignUpPageState extends State<SignUpPage> {
                             ),
                           ),
                         ),
-                        SizedBox(height: SizeConfig.heightmultiplier * 4 / 2),
+                        SizedBox(height: SizeConfig.heightMultiplier * 4 / 2),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Container(
                               height: 2,
-                              width: SizeConfig.heightmultiplier * 20 / 2,
+                              width: SizeConfig.heightMultiplier * 20 / 2,
                               color: Colors.white54,
                             ),
                             Padding(
                               padding: EdgeInsets.all(
-                                  SizeConfig.heightmultiplier * 3 / 2),
+                                  SizeConfig.heightMultiplier * 3 / 2),
                               child: Text(
                                 'Privacy Policy',
                                 style: TextStyle(
@@ -182,12 +182,12 @@ class _SignUpPageState extends State<SignUpPage> {
                                     ],
                                     color: Colors.white,
                                     fontSize:
-                                    SizeConfig.heightmultiplier * 4 / 2),
+                                    SizeConfig.heightMultiplier * 4 / 2),
                               ),
                             ),
                             Container(
                               height: 2,
-                              width: SizeConfig.heightmultiplier * 20 / 2,
+                              width: SizeConfig.heightMultiplier * 20 / 2,
                               color: Colors.white54,
                             ),
                           ],
@@ -202,7 +202,7 @@ class _SignUpPageState extends State<SignUpPage> {
                                 )
                               ],
                               color: Colors.white,
-                              fontSize: SizeConfig.heightmultiplier * 3.3 / 2),
+                              fontSize: SizeConfig.heightMultiplier * 3.3 / 2),
                         ),
                         Text(
                           'Terms & Conditions',
@@ -215,10 +215,10 @@ class _SignUpPageState extends State<SignUpPage> {
                               ],
                               color: Colors.white,
                               fontWeight: FontWeight.w600,
-                              fontSize: SizeConfig.heightmultiplier * 3.5 / 2),
+                              fontSize: SizeConfig.heightMultiplier * 3.5 / 2),
                         ),
                         SizedBox(
-                          height: SizeConfig.heightmultiplier * 8 / 2,
+                          height: SizeConfig.heightMultiplier * 8 / 2,
                         ),
                         Text(
                           'Already have an account?',
@@ -230,14 +230,14 @@ class _SignUpPageState extends State<SignUpPage> {
                                 )
                               ],
                               color: Colors.white,
-                              fontSize: SizeConfig.heightmultiplier * 3.7 / 2),
+                              fontSize: SizeConfig.heightMultiplier * 3.7 / 2),
                         ),
                         SizedBox(
-                          height: SizeConfig.heightmultiplier * 2.2 / 2,
+                          height: SizeConfig.heightMultiplier * 2.2 / 2,
                         ),
                         LoginButtonNavigator(),
                         SizedBox(
-                          height: SizeConfig.heightmultiplier * 3 / 2,
+                          height: SizeConfig.heightMultiplier * 3 / 2,
                         ),
                       ],
                     ),

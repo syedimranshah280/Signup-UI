@@ -8,7 +8,7 @@ class SignupButton extends StatelessWidget {
     return GestureDetector(
       onTap: () {},
       child: Container(
-          height: SizeConfig.heightmultiplier * 9 / 2,
+          height: SizeConfig.heightMultiplier * 9 / 2,
           margin: EdgeInsets.symmetric(horizontal: 5.5),
           padding: EdgeInsets.symmetric(vertical: 5, horizontal: 5),
           alignment: Alignment.center,
@@ -24,7 +24,7 @@ class SignupButton extends StatelessWidget {
             style: TextStyle(
                 color: Colors.white54,
                 fontWeight: FontWeight.bold,
-                fontSize: SizeConfig.heightmultiplier * 3.8 / 2),
+                fontSize: SizeConfig.heightMultiplier * 3.8 / 2),
           )),
     );
   }

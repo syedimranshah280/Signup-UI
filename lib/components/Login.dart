@@ -34,17 +34,17 @@ class LoginPage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Container(
-                          height: SizeConfig.heightmultiplier * 100 / 2,
-                          width: SizeConfig.heightmultiplier * 100 / 2,
+                          height: SizeConfig.heightMultiplier * 100 / 2,
+                          width: SizeConfig.heightMultiplier * 100 / 2,
                           margin: EdgeInsets.all(
-                            SizeConfig.heightmultiplier * 3 / 2,
+                            SizeConfig.heightMultiplier * 3 / 2,
                           ),
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.only(
                                   bottomLeft: Radius.circular(
-                                      SizeConfig.heightmultiplier * 30 / 2),
+                                      SizeConfig.heightMultiplier * 30 / 2),
                                   topRight: Radius.circular(
-                                      SizeConfig.heightmultiplier * 30 / 2)),
+                                      SizeConfig.heightMultiplier * 30 / 2)),
                               boxShadow: [
                                 BoxShadow(
                                     blurRadius: 28,
@@ -62,16 +62,16 @@ class LoginPage extends StatelessWidget {
                             filter: ImageFilter.blur(sigmaX: 1.0, sigmaY: 1.0),
                             child: Container(
                               margin: EdgeInsets.all(
-                                SizeConfig.heightmultiplier * 7 / 2,
+                                SizeConfig.heightMultiplier * 7 / 2,
                               ),
-                              height: SizeConfig.heightmultiplier * 90 / 2,
-                              width: SizeConfig.heightmultiplier * 90 / 2,
+                              height: SizeConfig.heightMultiplier * 90 / 2,
+                              width: SizeConfig.heightMultiplier * 90 / 2,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.only(
                                       bottomLeft: Radius.circular(
-                                          SizeConfig.heightmultiplier * 28 / 2),
+                                          SizeConfig.heightMultiplier * 28 / 2),
                                       topRight: Radius.circular(
-                                          SizeConfig.heightmultiplier *
+                                          SizeConfig.heightMultiplier *
                                               28 /
                                               2)),
                                   boxShadow: [
@@ -93,20 +93,20 @@ class LoginPage extends StatelessWidget {
                                 child: Center(
                                     child: Container(
                                   margin: EdgeInsets.all(
-                                    SizeConfig.heightmultiplier * 7 / 2,
+                                    SizeConfig.heightMultiplier * 7 / 2,
                                   ),
-                                  height: SizeConfig.heightmultiplier * 73 / 2,
-                                  width: SizeConfig.heightmultiplier * 73 / 2,
+                                  height: SizeConfig.heightMultiplier * 73 / 2,
+                                  width: SizeConfig.heightMultiplier * 73 / 2,
                                   padding: EdgeInsets.all(
-                                      SizeConfig.heightmultiplier * 4 / 2),
+                                      SizeConfig.heightMultiplier * 4 / 2),
                                   decoration: BoxDecoration(
                                       borderRadius: BorderRadius.only(
                                           bottomLeft: Radius.circular(
-                                              SizeConfig.heightmultiplier *
+                                              SizeConfig.heightMultiplier *
                                                   25 /
                                                   2),
                                           topRight: Radius.circular(
-                                              SizeConfig.heightmultiplier *
+                                              SizeConfig.heightMultiplier *
                                                   25 /
                                                   2)),
                                       boxShadow: [
@@ -134,7 +134,7 @@ class LoginPage extends StatelessWidget {
                                         EnterEmailWidget(), //enter email field
                                         EnterPasswordWidget(), //enter password field
                                         SizedBox(
-                                          height: SizeConfig.heightmultiplier *
+                                          height: SizeConfig.heightMultiplier *
                                               1 /
                                               2,
                                         ),
@@ -144,7 +144,7 @@ class LoginPage extends StatelessWidget {
                                               padding:
                                                   EdgeInsets.only(right: 6),
                                               height:
-                                                  SizeConfig.heightmultiplier *
+                                                  SizeConfig.heightMultiplier *
                                                       7 /
                                                       2,
                                               alignment: Alignment.topRight,
@@ -155,14 +155,14 @@ class LoginPage extends StatelessWidget {
                                                 style: TextStyle(
                                                     color: Colors.white54,
                                                     fontSize: SizeConfig
-                                                            .heightmultiplier *
+                                                            .heightMultiplier *
                                                         3 /
                                                         2),
                                               )),
                                         ),
                                         LoginButton(), //login button
                                         SizedBox(
-                                          height: SizeConfig.heightmultiplier *
+                                          height: SizeConfig.heightMultiplier *
                                               4 /
                                               2,
                                         ),
@@ -174,18 +174,18 @@ class LoginPage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        SizedBox(height: SizeConfig.heightmultiplier * 4 / 2),
+                        SizedBox(height: SizeConfig.heightMultiplier * 4 / 2),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Container(
                               height: 2,
-                              width: SizeConfig.heightmultiplier * 20 / 2,
+                              width: SizeConfig.heightMultiplier * 20 / 2,
                               color: Colors.white54,
                             ),
                             Padding(
                               padding: EdgeInsets.all(
-                                  SizeConfig.heightmultiplier * 3 / 2),
+                                  SizeConfig.heightMultiplier * 3 / 2),
                               child: Text(
                                 'Or Sign in with',
                                 style: TextStyle(
@@ -197,27 +197,27 @@ class LoginPage extends StatelessWidget {
                                     ],
                                     color: Colors.white,
                                     fontSize:
-                                        SizeConfig.heightmultiplier * 4 / 2),
+                                        SizeConfig.heightMultiplier * 4 / 2),
                               ),
                             ),
                             Container(
                               height: 2,
-                              width: SizeConfig.heightmultiplier * 20 / 2,
+                              width: SizeConfig.heightMultiplier * 20 / 2,
                               color: Colors.white54,
                             ),
                           ],
                         ),
                         Container(
-                          height: SizeConfig.heightmultiplier * 20 / 2,
-                          width: SizeConfig.heightmultiplier * 64 / 2,
+                          height: SizeConfig.heightMultiplier * 20 / 2,
+                          width: SizeConfig.heightMultiplier * 64 / 2,
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               Container(
-                                height: SizeConfig.heightmultiplier * 17 / 2,
+                                height: SizeConfig.heightMultiplier * 17 / 2,
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(500)),
-                                width: SizeConfig.heightmultiplier * 17 / 2,
+                                width: SizeConfig.heightMultiplier * 17 / 2,
                                 child: SignInButton(Buttons.Facebook,
                                     shape: RoundedRectangleBorder(
                                         borderRadius:
@@ -226,10 +226,10 @@ class LoginPage extends StatelessWidget {
                                     onPressed: () {}),
                               ),
                               Container(
-                                height: SizeConfig.heightmultiplier * 17 / 2,
+                                height: SizeConfig.heightMultiplier * 17 / 2,
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(500)),
-                                width: SizeConfig.heightmultiplier * 17 / 2,
+                                width: SizeConfig.heightMultiplier * 17 / 2,
                                 child: SignInButton(Buttons.Twitter,
                                     shape: RoundedRectangleBorder(
                                         borderRadius:
@@ -241,7 +241,7 @@ class LoginPage extends StatelessWidget {
                           ),
                         ),
                         SizedBox(
-                          height: SizeConfig.heightmultiplier * 6 / 2,
+                          height: SizeConfig.heightMultiplier * 6 / 2,
                         ),
                         Text(
                           'Don\'t have an account?',
@@ -253,14 +253,14 @@ class LoginPage extends StatelessWidget {
                                 )
                               ],
                               color: Colors.white,
-                              fontSize: SizeConfig.heightmultiplier * 3.7 / 2),
+                              fontSize: SizeConfig.heightMultiplier * 3.7 / 2),
                         ),
                         SizedBox(
-                          height: SizeConfig.heightmultiplier * 2.2 / 2,
+                          height: SizeConfig.heightMultiplier * 2.2 / 2,
                         ),
                         SignUpButtonNavigator(),
                         SizedBox(
-                          height: SizeConfig.heightmultiplier * 3 / 2,
+                          height: SizeConfig.heightMultiplier * 3 / 2,
                         ),
                       ],
                     ),

@@ -11,10 +11,10 @@ class _EnterPasswordWidgetState extends State<EnterPasswordWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: SizeConfig.heightmultiplier * 14 / 2,
+      height: SizeConfig.heightMultiplier * 14 / 2,
       padding: EdgeInsets.symmetric(
-        vertical: SizeConfig.heightmultiplier * 2 / 2,
-        horizontal: SizeConfig.heightmultiplier * 2 / 2,
+        vertical: SizeConfig.heightMultiplier * 2 / 2,
+        horizontal: SizeConfig.heightMultiplier * 2 / 2,
       ),
       alignment: Alignment.centerLeft,
       //width: 200,
@@ -22,7 +22,7 @@ class _EnterPasswordWidgetState extends State<EnterPasswordWidget> {
       child: TextField(
         style: TextStyle(
             color: Colors.white60,
-            fontSize: SizeConfig.heightmultiplier * 3.7 / 2),
+            fontSize: SizeConfig.heightMultiplier * 3.7 / 2),
         decoration: InputDecoration(
             border: const UnderlineInputBorder(
                 borderSide: BorderSide(color: Colors.white54)),
@@ -36,7 +36,7 @@ class _EnterPasswordWidgetState extends State<EnterPasswordWidget> {
             hintText: 'Enter password',
             hintStyle: TextStyle(
                 color: Colors.white54,
-                fontSize: SizeConfig.heightmultiplier * 3.7 / 2)),
+                fontSize: SizeConfig.heightMultiplier * 3.7 / 2)),
       ),
     );
   }

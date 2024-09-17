@@ -10,17 +10,17 @@ class _EnterEmailWidgetState extends State<EnterEmailWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: SizeConfig.heightmultiplier * 14 / 2,
+      height: SizeConfig.heightMultiplier * 14 / 2,
       padding: EdgeInsets.symmetric(
-          vertical: SizeConfig.heightmultiplier * 2 / 2,
-          horizontal: SizeConfig.heightmultiplier * 2 / 2),
+          vertical: SizeConfig.heightMultiplier * 2 / 2,
+          horizontal: SizeConfig.heightMultiplier * 2 / 2),
       alignment: Alignment.centerLeft,
       //width: SizeConfig.heightMultiplier * 70 / 2,
       //  color: Colors.red,
       child: TextField(
         style: TextStyle(
             color: Colors.white60,
-            fontSize: SizeConfig.heightmultiplier * 3.7 / 2),
+            fontSize: SizeConfig.heightMultiplier * 3.7 / 2),
         decoration: InputDecoration(
             border: UnderlineInputBorder(
                 borderSide: BorderSide(color: Colors.white54)),
@@ -34,7 +34,7 @@ class _EnterEmailWidgetState extends State<EnterEmailWidget> {
             hintText: 'Enter email',
             hintStyle: TextStyle(
                 color: Colors.white54,
-                fontSize: SizeConfig.heightmultiplier * 3.7 / 2)),
+                fontSize: SizeConfig.heightMultiplier * 3.7 / 2)),
       ),
     );
   }
